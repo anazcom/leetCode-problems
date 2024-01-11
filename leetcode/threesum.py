@@ -1,6 +1,6 @@
 # Runtime: 3415ms
 # Memory: 18.76MB
-# Link: https://leetcode.com/problems/3sum/submissions/
+# Link: https://leetcode.com/problems/3sum/
 
 def threeSum(nums):
     """
@@ -9,7 +9,6 @@ def threeSum(nums):
     """
     nums = sorted(nums, reverse=False)
     answer = set()
-    print(nums)
     are_distinct_indexes = lambda i, l, h: i != l and i != h and l != h 
 
     for i in range(0, len(nums) - 2):

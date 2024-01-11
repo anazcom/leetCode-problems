@@ -1,6 +1,6 @@
 # Runtime: 46ms
 # Memory: 14.75MB
-# Link: https://leetcode.com/problems/two-sum/submissions/
+# Link: https://leetcode.com/problems/two-sum/
 
 def twoSum(nums, target):
     """
